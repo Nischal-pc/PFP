@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 140" width="100%" height="100%">
+  <defs>
+    <!-- Fire Flame Gradient -->
+    <linearGradient id="pfpFlameGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#991B1B" />
+      <stop offset="45%" stop-color="#C2410C" />
+      <stop offset="85%" stop-color="#EA580C" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+    
+    <!-- Shield Metallic/Charcoal Gradient -->
+    <linearGradient id="pfpShieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+  </defs>
+
+  <!-- ICON EMBLEM -->
+  <g transform="translate(10, 10)">
+    <!-- Outer Precision Shield Frame -->
+    <path d="M 60 4 L 110 24 V 68 C 110 98 84 116 60 124 C 36 116 10 98 10 68 V 24 Z" 
+          fill="url(#pfpShieldGrad)" 
+          stroke="#0284C7" 
+          stroke-width="2.5" 
+          stroke-linejoin="round" />
+
+    <!-- Inner Hairline Blueprint Accent -->
+    <path d="M 60 12 L 102 29 V 66 C 102 91 79 107 60 114 C 41 107 18 91 18 66 V 29 Z" 
+          fill="none" 
+          stroke="#0284C7" 
+          stroke-width="1" 
+          stroke-dasharray="3,3" 
+          opacity="0.6" />
+
+    <!-- Reticle Crosshair Marks -->
+    <line x1="60" y1="4" x2="60" y2="14" stroke="#0284C7" stroke-width="2" />
+    <line x1="60" y1="114" x2="60" y2="124" stroke="#0284C7" stroke-width="2" />
+    <line x1="10" y1="64" x2="20" y2="64" stroke="#0284C7" stroke-width="2" />
+    <line x1="100" y1="64" x2="110" y2="64" stroke="#0284C7" stroke-width="2" />
+
+    <!-- Precision Flame Element -->
+    <g transform="translate(34, 28)">
+      <!-- Outer Flame -->
+      <path d="M 26 72 C 10 72 2 60 2 46 C 2 30 16 18 26 2 C 34 16 50 30 50 46 C 50 60 42 72 26 72 Z" 
+            fill="url(#pfpFlameGrad)" />
+      <!-- Inner High-Heat Core -->
+      <path d="M 26 68 C 17 68 12 59 12 49 C 12 37 20 27 26 14 C 31 25 40 35 40 49 C 40 59 35 68 26 68 Z" 
+            fill="#FEF08A" 
+            opacity="0.9" />
+      <!-- Core Ember -->
+      <path d="M 26 64 C 21 64 17 58 17 52 C 17 44 22 36 26 26 C 29 34 35 42 35 52 C 35 58 31 64 26 64 Z" 
+            fill="#FFFFFF" />
+    </g>
+  </g>
+
+  <!-- LOGO TYPOGRAPHY -->
+  <!-- Brand Name: PFP CANADA -->
+  <text x="145" y="72" 
+        fill="#0F172A" 
+        font-family="Oswald, 'Arial Black', sans-serif" 
+        font-size="62" 
+        font-weight="700" 
+        letter-spacing="2">
+    PFP<tspan fill="#C2410C">CANADA</tspan>
+  </text>
+
+  <!-- Subtitle: PRECISION FIRE PROTECTION -->
+  <text x="148" y="102" 
+        fill="#0284C7" 
+        font-family="Oswald, sans-serif" 
+        font-size="15" 
+        font-weight="600" 
+        letter-spacing="5.5">
+    PRECISION FIRE PROTECTION
+  </text>
+
+  <!-- Subtitle Badge: EST. 2004 · WESTERN CANADA -->
+  <line x1="148" y1="116" x2="570" y2="116" stroke="#E2E8F0" stroke-width="1.5" />
+  <text x="148" y="129" 
+        fill="#64748B" 
+        font-family="Oswald, sans-serif" 
+        font-size="11" 
+        font-weight="500" 
+        letter-spacing="2">
+    AHJ CODE COMPLIANT · EST. 2004 · WESTERN CANADA
+  </text>
+</svg>

@@ -1,0 +1,25 @@
+{
+  "hook": {
+    "enabled": true,
+    "limits": {
+      "maxFindings": 5,
+      "maxChars": 8000
+    }
+  },
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "codex-grid-background",
+        "value": "*",
+        "files": [
+          "app/globals.css",
+          "components/page-hero.tsx"
+        ],
+        "createdAt": "2026-07-25T17:28:35.449Z",
+        "reason": "AHJ dossier world uses blueprint grid as native material on cover plates"
+      }
+    ]
+  }
+}
